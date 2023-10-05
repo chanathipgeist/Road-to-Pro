@@ -1,0 +1,18 @@
+kubectl get all  - ดูทรัพยากรณ์ทั้งหมด
+
+kubectl get pods    -ดู pods 
+
+kubectl apply -f myfile.yml -ใช้งานไฟล์
+
+kubectl get services    -ดู servicesทั้งหมด
+
+kubectl logs mypod  -ดู logs pod
+
+kubectl delete pod mypod    -ลบ pod
+
+kubectl delete service myservice    -ลบ service
+
+kubectl delete pod/service --all    
+kubectl delete all --all            -ลบ pod หรือ service ทั้งหมด
+
+kubectl get services    -ดู service ทั้งหมด
